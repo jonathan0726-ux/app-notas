@@ -1,0 +1,64 @@
+/* Estilos generales del cuerpo de la página */
+body {
+    font-family: Arial, sans-serif; /* Tipografía por defecto */
+    display: flex; /* Usamos flexbox para centrar el contenido */
+    justify-content: center; /* Centrado horizontal */
+    align-items: center; /* Centrado vertical */
+    height: 100vh; /* 100% de la altura de la ventana */
+    margin: 0; /* Eliminar márgenes por defecto */
+    background-color: #f0f0f0; /* Fondo gris claro */
+}
+
+/* Contenedor principal */
+.app-container {
+    text-align: center;
+    width: 100%;
+    max-width: 600px; /* Limita el ancho máximo */
+    padding: 20px;
+    background-color: white; /* Fondo blanco */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilo del textarea */
+textarea {
+    width: 100%;
+    height: 150px;
+    margin: 10px 0; /* Espaciado superior e inferior */
+    padding: 10px;
+    font-size: 16px; /* Tamaño de la fuente */
+    border-radius: 8px; /* Bordes redondeados */
+    border: 1px solid #ddd; /* Borde gris claro */
+    box-sizing: border-box; /* Incluye el padding en el cálculo del ancho */
+}
+
+/* Estilo del botón */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50; /* Fondo verde */
+    color: white; /* Texto blanco */
+    border: none; /* Sin borde */
+    border-radius: 8px; /* Bordes redondeados */
+}
+
+button:hover {
+    background-color: #45a049; /* Cambio de color cuando el ratón pasa sobre el botón */
+}
+
+/* Estilo para la lista de notas */
+ul {
+    list-style-type: none; /* Sin puntos de lista */
+    padding: 0; /* Sin padding */
+    margin-top: 20px; /* Espaciado superior */
+}
+
+/* Estilo para cada elemento de la lista de notas */
+li {
+    background-color: #f9f9f9; /* Fondo gris claro */
+    margin: 5px 0; /* Espaciado entre las notas */
+    padding: 10px;
+    border-radius: 8px; /* Bordes redondeados */
+    border: 1px solid #ddd; /* Borde gris claro */
+}
